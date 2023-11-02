@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Website Services</title>
+  <link rel="stylesheet" href="Sstyle.css">
+</head>
+<body>
+  <div class="header">
+    <a href="Home.html" class="logo">COA</a>
+    <div class="header-right">
+      <a href="Home.html">Home</a>
+      <a class="active" href="Services.html">IT Services</a>
+      <a href="About.html">About</a>
+      <div class="dropdown">
+        <button class="dropbtn">Modules
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <div class="header">
+            <h1>Learning Materials</h1>
+          </div>
+          <div class="row2">
+            <div class="column2">
+              <h3>Information Technology</h3>
+              <a href="./Files/ETHICS.pdf">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <div class="column2">
+              <h3>Computer Engineering</h3>
+              <a href="./Files/ARDUINO.docx">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <div class="column2">
+              <h3>Electrical Engineering</h3>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- MAIN (Center website) -->
+<div class="main">
+
+  <h1>Professional</h1>
+  <hr>
+  
+  <h2>Available</h2>
+  
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('IT')"> IT</button>
+    <button class="btn" onclick="filterSelection('CPE')"> CPE</button>
+    <button class="btn" onclick="filterSelection('EE')"> EE</button>
+  </div>
+  
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column IT">
+      <div class="content">
+        <img src="./Files/1.png" alt="Network and Security" style="width:100%">
+        <h4>Network and Security</h4>
+        <p>Name: Marc John</p>
+        <p>Phone Number:(555) 555-1231 </p>
+        <p>Email Address: MJ123@gmail.com</p>
+      </div>
+    </div>
+    <div class="column IT">
+      <div class="content">
+      <img src="./Files/1.png" alt="Computer Training" style="width:100%">
+        <h4>Computer Training</h4>
+        <p>Name: Janna Cast</p>
+        <p>Phone Number:(555) 555-1232</p>
+        <p>Email Address: JC123@gmail.com</p>
+      </div>
+    </div>
+    <div class="column IT">
+      <div class="content">
+      <img src="./Files/1.png" alt="IT consulting" style="width:100%">
+        <h4>IT consulting</h4>
+        <p>Name: Era Jean </p>
+        <p>Phone Number:(555) 555-1233</p>
+        <p>Email Address: EJ123@gmail.com</p>
+      </div>
+    </div>
+    
+    <div class="column CPE">
+      <div class="content">
+        <img src="./Files/2.jpg" alt="Hardware and Software Designing" style="width:100%">
+        <h4>Hardware and Software Designing</h4>
+        <p>Name: Aldrin Pol</p>
+        <p>Phone Number:(555) 555-1235 </p>
+        <p>Email Address: AP123@gmail.com</p>
+      </div>
+    </div>
+    <div class="column CPE">
+      <div class="content">
+      <img src="./Files/2.jpg" alt="Testing Designs" style="width:100%">
+        <h4>Testing Designs</h4>
+        <p>Name: Ella Monday </p>
+        <p>Phone Number:(555) 555-1236 </p>
+        <p>EM123@gmail.com</p>
+      </div>
+    </div>
+    <div class="column CPE">
+      <div class="content">
+      <img src="./Files/2.jpg" alt="Telecommunication" style="width:100%">
+        <h4>Telecommunication</h4>
+        <p>Name: Drane Doble</p>
+        <p>Phone Number:(555) 555-1237 </p>
+        <p>Email Address: DD123@gmail.com</p>
+      </div>
+    </div>
+  
+    <div class="column EE">
+      <div class="content">
+        <img src="./Files/3.png" alt="Design and Implementation of Electrical Systems" style="width:100%">
+        <h4>Design and Implementation of Electrical Systems</h4>
+        <p>Name: Rinski Noman</p>
+        <p>Phone Number:(555) 555-1238 </p>
+        <p>Email Address: RN123@gmail.com</p>
+      </div>
+    </div>
+    <div class="column EE">
+      <div class="content">
+      <img src="./Files/3.png" alt="Communication and Signal Processing System" style="width:100%">
+        <h4>Communication and Signal Processing System</h4>
+        <p>Name: Jerry Tom</p>
+        <p>Phone Number:(555) 555-1239 </p>
+        <p>Email Address: JT123@gmail.com</p>
+      </div>
+    </div>
+    <div class="column EE">
+      <div class="content">
+      <img src="./Files/3.png" alt="Power Systems" style="width:100%">
+        <h4>Power Systems</h4>
+        <p>Name: Dane Ashley</p>
+        <p>Phone Number:(555) 555-1234 </p>
+        <p>Email Address: DA123@gmail.com</p>
+      </div>
+    </div>
+  <!-- END GRID -->
+  </div>
+  
+  <!-- END MAIN -->
+  </div>
+
+
+  <script src="Saction.js" defer></script>
+</body>
+
+</html>
+  
+ 

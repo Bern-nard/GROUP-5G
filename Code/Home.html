@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Website Services</title>
+  <link rel="stylesheet" href="Hstyles.css">
+</head>
+<body>
+  <div class="header">
+    <a href="Home.html" class="logo">COA</a>
+    <div class="header-right">
+      <a class="active" href="Home.html">Home</a>
+      <a href="Services.html">IT Services</a>
+      <a href="About.html">About</a>
+      <div class="dropdown">
+        <button class="dropbtn">Modules
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <div class="header">
+            <h1>Learning Materials</h1>
+          </div>
+          <div class="row">
+            <div class="column">
+              <h3>Information Technology</h3>
+              <a href="./Files/ETHICS.pdf">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <div class="column">
+              <h3>Computer Engineering</h3>
+              <a href="./Files/ARDUINO.docx">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <div class="column">
+              <h3>Electrical Engineering</h3>
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <section class="hero">
+    <div class="hero-content">
+      <h1>COA Engineering and IT Services</h1>
+      <p>We provide professional web design and development services.</p>
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="Home.html" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="./Files/User.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+    </div>
+  </section>
+  
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service">
+      <img src="./Files/web-design.jpg" alt="Web Design">
+      <h3>Web Design</h3>
+      <p>We create visually appealing and user-friendly websites tailored to your brand.</p>
+    </div>
+    <div class="service">
+      <img src="./Files/web-development.jpg" alt="Web Development">
+      <h3>Web Development</h3>
+      <p>We build robust and scalable websites using the latest web technologies.</p>
+    </div>
+    <div class="service">
+      <img src="./Files/seo.jpg" alt="SEO">
+      <h3>SEO</h3>
+      <p>We optimize your website to improve its visibility on search engines.</p>
+    </div>
+  </section>
+  
+  <section class="parallax"></section>
+  
+    <h2>Contact Us</h2>
+    <div class="container">
+      <form action="Home.html">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+  <footer>
+    <p>&copy; 2023 Online Website Services. All rights reserved.</p>
+  </footer>
+  <script src="Haction.js" defer></script>
+</body>
+</html>
